@@ -15,6 +15,7 @@ TagManager:
   - StructureCollider
   - RepairStructure
   - PuzzlePiece
+  - TeleportTrigger
   layers:
   - Default
   - TransparentFX
