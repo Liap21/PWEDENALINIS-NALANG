@@ -10,34 +10,39 @@ public class Teleport : MonoBehaviour
     [SerializeField] private float waitForTrastion = 3;
     [SerializeField] private GateTeleport currentGateActive;
     [SerializeField] private Transform Player;
-    [SerializeField] private TextMeshProUGUI textUI;
     private Collider2D[] playerCollider;
     [Header("Fade Transtion")]
     [SerializeField] private Image screenPanel;
     [SerializeField] private float fadeSpeed = 1;
     [SerializeField] private Color color;
     [SerializeField] private bool allowTeleport;
+
+    public Button teleButton;
     private void Awake()
     {
         allowTeleport = true;
-
-        textUI.transform.gameObject.SetActive(false);
+        teleButton.gameObject.SetActive(false);
         playerCollider = Player.GetComponentsInChildren<Collider2D>();
         screenPanel.color = color;
         screenPanel.gameObject.SetActive(false);
+
+        teleButton.onClick.AddListener(ActiveTeleport);
     }
-    private void Update()
+
+    private void OnDestroy()
     {
-        // teleport if player on trigger one gate
-        if (Input.GetKeyDown(KeyCode.F) && allowTeleport)
+        teleButton.onClick.RemoveListener(ActiveTeleport);
+    }
+    private void ActiveTeleport()
+    {
+        if (allowTeleport)
         {
-            Debug.Log("get input",gameObject);
-            if(currentGateActive != null)
+            Debug.Log("get input", gameObject);
+            if (currentGateActive != null)
             {
                 StartTeleport(Player, currentGateActive.NextTeleportGate);
             }
         }
-
     }
     public void StartTeleport(Transform player, GateTeleport nextGate)
     {
@@ -100,13 +105,12 @@ public class Teleport : MonoBehaviour
         if(gateTeleport == null)
         {
             currentGateActive = null;
-            textUI.gameObject.SetActive(false);
+            teleButton.gameObject.SetActive(false);
         }
         else
         {
-            textUI.gameObject.SetActive(true); 
+            teleButton.gameObject.SetActive(true); 
             currentGateActive = gateTeleport;
-            textUI.transform.position = gateTeleport.transform.position + new Vector3(0, 1, 0);
 
         }
     }
