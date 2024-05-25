@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 4d350dd37c8a66448b500b9d066283f3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 36
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_0
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 253
+        width: 157
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8df811c3c192c94eaa0685094e2819d
+      internalID: 1510354453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 252
+        width: 144
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dca3b32cbc62241996b6aceaf75000
+      internalID: -1745305029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_4
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 252
+        width: 149
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25095146f5f74fb4bb1c76cf21124354
+      internalID: -1142789040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_6
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 256
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7a6472399626d43bc3767fe5ce0fb0
+      internalID: -1981706151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_7
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 256
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81ebca350fb19847afdfd23f2f066bc
+      internalID: 1307167290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_8
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 256
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8625d2f32f8b2147925b206d7edb464
+      internalID: 1537287798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_9
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 256
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacdd270105188f43b6e2bc7672f6049
+      internalID: -1608646057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 41
+        width: 180
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2e0d0593d67884da1beea51cc528ef
+      internalID: -227080269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_13
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 41
+        width: 183
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0456286a3d4a0f445a2603a319fba0aa
+      internalID: 1474319291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_16
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 52
+        width: 182
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355f0500e6f296345b89b27ec76e01ff
+      internalID: 1920951820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_19
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 50
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f9ff7df4b11dd4492798132053004d
+      internalID: -1004864829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_21
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 50
+        width: 120
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222659c27ccd44941aa88ba01e57ae32
+      internalID: -2025344263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_23
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 50
+        width: 120
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c22f3a0232ca8c42a0829f02151889f
+      internalID: 1103748919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_PaintersVER2_25
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 50
+        width: 114
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e923fb130e5de46b3d6763ed98b864
+      internalID: 805347245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NPC_PaintersVER2_0: 1510354453
+      NPC_PaintersVER2_1: 1487644957
+      NPC_PaintersVER2_10: -227080269
+      NPC_PaintersVER2_11: 1918160484
+      NPC_PaintersVER2_12: -1718220247
+      NPC_PaintersVER2_13: 1474319291
+      NPC_PaintersVER2_14: 350997883
+      NPC_PaintersVER2_15: -1472049210
+      NPC_PaintersVER2_16: 1920951820
+      NPC_PaintersVER2_17: 118108897
+      NPC_PaintersVER2_18: -1758794490
+      NPC_PaintersVER2_19: -1004864829
+      NPC_PaintersVER2_2: -1745305029
+      NPC_PaintersVER2_20: -170193436
+      NPC_PaintersVER2_21: -2025344263
+      NPC_PaintersVER2_22: 698292898
+      NPC_PaintersVER2_23: 1103748919
+      NPC_PaintersVER2_24: -202244642
+      NPC_PaintersVER2_25: 805347245
+      NPC_PaintersVER2_26: 467951808
+      NPC_PaintersVER2_27: -2016492480
+      NPC_PaintersVER2_28: -1601936304
+      NPC_PaintersVER2_29: -2013690849
+      NPC_PaintersVER2_3: 1341650112
+      NPC_PaintersVER2_30: -2076479018
+      NPC_PaintersVER2_31: -28791196
+      NPC_PaintersVER2_32: 267634455
+      NPC_PaintersVER2_33: -537792226
+      NPC_PaintersVER2_4: -1142789040
+      NPC_PaintersVER2_5: -386193015
+      NPC_PaintersVER2_6: -1981706151
+      NPC_PaintersVER2_7: 1307167290
+      NPC_PaintersVER2_8: 1537287798
+      NPC_PaintersVER2_9: -1608646057
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

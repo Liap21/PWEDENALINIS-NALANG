@@ -1,0 +1,1029 @@
+fileFormatVersion: 2
+guid: 1252bc1b1d2153a4b9e0f35881857abb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c798a935e4899e4499583810ad2a3475
+      internalID: -318364931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 416
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b183515f88961194ba79162e45e2f5b6
+      internalID: 1356482068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 411
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f915208eb6f55834caa9629f3e0da201
+      internalID: -1407840697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 400
+        width: 145
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e765a8c7b918542ae36853474189c1
+      internalID: 1304623201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_4
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 442
+        width: 114
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d9fce8db100c64ab2d580cc4acc5ad
+      internalID: 264980040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_5
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 457
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5674227e35a3c194b8ba17a3ecfee6f0
+      internalID: -1644472957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_6
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 457
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941f1f7b0b80499498529fa1d6501962
+      internalID: -1889501627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_7
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 404
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0703e2855e66a8f47b9dd30eb9ef71e5
+      internalID: 649069493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_8
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 402
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572fd53dd899670498e04248a9fc3c35
+      internalID: 995496603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_9
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 451
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c207f131dfc3cb74aa979502f4a06d51
+      internalID: -897416588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 418
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daddb5b75e36a594c9466400d2ce236a
+      internalID: -110005875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_11
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 439
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6052c8ece637534458736fd0223fcd3b
+      internalID: 965178691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_12
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 422
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0354a0c7f6f8ce9408727038b7a9cb04
+      internalID: 63639692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_13
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 422
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb5ba7a67270c04a9ecb632d0801609
+      internalID: -1243492263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_14
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 422
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc009736104ec7041aea968ca5ffe03a
+      internalID: 1407583119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_15
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 422
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172d60199cbcba04783b940f3dd7eb60
+      internalID: -1511704876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_16
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 418
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e25eab2c133d643b2bbc60fbcf87ea
+      internalID: -961901343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_17
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 421
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01c529f7b1089a46b3f1f45b0774477
+      internalID: 1120373243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 352
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d87789e1434f140994b01ab0f8165d
+      internalID: -605180688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 400
+        width: 97
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6953a8b980d6a742890892c08cc0e91
+      internalID: -1294570743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_20
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 401
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fc7a0335afd3042bb052af078a0057
+      internalID: -1123393007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_21
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 401
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3baa08aff360a4faacd59ceccee029
+      internalID: -480935610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_22
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 352
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535beb5a18745414f8a5506dbde73392
+      internalID: 1647146024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 349
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2038c970ff0e11f45913a6696f96cce3
+      internalID: -1861422382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_24
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 341
+        width: 124
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138aa5a3bf0b457448b969e05f574a2a
+      internalID: -308855369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_25
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 357
+        width: 117
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503d8fdc048338b4484dda2f74c099c9
+      internalID: -57302478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_26
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 357
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aee77cdfc482f64caaab4acf045157b
+      internalID: -203344444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 284
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104ca715c5b71114cbf84865d3d3180e
+      internalID: -1913596016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_28
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 265
+        width: 145
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38c18a3bafda1048a048fd3989e139c
+      internalID: -711526605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5880cd8a757354d81de057a7e23100
+      internalID: -675087420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_30
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 187
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6faee78c722e7d48a6d6f7825beb119
+      internalID: -1598118140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_31
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 187
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73058e0d3ad8d874d96e1a296648cd75
+      internalID: 1488436407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 187
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2db8777445261e42a57224b34a233a6
+      internalID: -497012431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_33
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 187
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4896a581d0226294dba8cdcf9f204fd9
+      internalID: -350189183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_34
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 138
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3833e93ee96194d8c3c4d4bf5ec0b9
+      internalID: -75825020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_35
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 124
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfcfd5661e03bc4895b6d73bbe5d8d8
+      internalID: -891800493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_36
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 131
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d26c2867bb70843a0cbeb0b2fb4bc7
+      internalID: -2046080745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_37
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 141
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579d4a601049ca84bb46dcf36520b046
+      internalID: -2015932839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_38
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 45
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7d62915bef9e443ad515362b7ef525
+      internalID: 493495927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_39
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 38
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5895dd04657d49d40876b467cd533517
+      internalID: -1636857997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s1_structure_tribalHouses 1_40
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 35
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52db7262281dfa54d8eed9fecfb29923
+      internalID: -2104196866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      s1_structure_tribalHouses 1_0: -318364931
+      s1_structure_tribalHouses 1_1: 1356482068
+      s1_structure_tribalHouses 1_10: -110005875
+      s1_structure_tribalHouses 1_11: 965178691
+      s1_structure_tribalHouses 1_12: 63639692
+      s1_structure_tribalHouses 1_13: -1243492263
+      s1_structure_tribalHouses 1_14: 1407583119
+      s1_structure_tribalHouses 1_15: -1511704876
+      s1_structure_tribalHouses 1_16: -961901343
+      s1_structure_tribalHouses 1_17: 1120373243
+      s1_structure_tribalHouses 1_18: -605180688
+      s1_structure_tribalHouses 1_19: -1294570743
+      s1_structure_tribalHouses 1_2: -1407840697
+      s1_structure_tribalHouses 1_20: -1123393007
+      s1_structure_tribalHouses 1_21: -480935610
+      s1_structure_tribalHouses 1_22: 1647146024
+      s1_structure_tribalHouses 1_23: -1861422382
+      s1_structure_tribalHouses 1_24: -308855369
+      s1_structure_tribalHouses 1_25: -57302478
+      s1_structure_tribalHouses 1_26: -203344444
+      s1_structure_tribalHouses 1_27: -1913596016
+      s1_structure_tribalHouses 1_28: -711526605
+      s1_structure_tribalHouses 1_29: -675087420
+      s1_structure_tribalHouses 1_3: 1304623201
+      s1_structure_tribalHouses 1_30: -1598118140
+      s1_structure_tribalHouses 1_31: 1488436407
+      s1_structure_tribalHouses 1_32: -497012431
+      s1_structure_tribalHouses 1_33: -350189183
+      s1_structure_tribalHouses 1_34: -75825020
+      s1_structure_tribalHouses 1_35: -891800493
+      s1_structure_tribalHouses 1_36: -2046080745
+      s1_structure_tribalHouses 1_37: -2015932839
+      s1_structure_tribalHouses 1_38: 493495927
+      s1_structure_tribalHouses 1_39: -1636857997
+      s1_structure_tribalHouses 1_4: 264980040
+      s1_structure_tribalHouses 1_40: -2104196866
+      s1_structure_tribalHouses 1_5: -1644472957
+      s1_structure_tribalHouses 1_6: -1889501627
+      s1_structure_tribalHouses 1_7: 649069493
+      s1_structure_tribalHouses 1_8: 995496603
+      s1_structure_tribalHouses 1_9: -897416588
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

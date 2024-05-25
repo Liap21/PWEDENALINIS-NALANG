@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cee175daafe7d7d4c88f08b44a18b85e, type: 3}
+  m_Name: Glass
+  m_EditorClassIdentifier: 
+  itemName: Glass
+  itemDescription: 'It is a hard brittle substance that is transparent and translucent.
+    Glass is made by fusing sand, soda lime, and other ingredients and then slowly
+    cooled.  '
+  itemImage: {fileID: 21300000, guid: bd2201882d1d93d4fa9e1f0daefd4966, type: 3}
+  numberHeld: 0
+  usable: 0
+  unique: 1
+  thisEvent:
+    m_PersistentCalls:
+      m_Calls: []
