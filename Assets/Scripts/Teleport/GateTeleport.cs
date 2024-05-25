@@ -3,21 +3,41 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GateTeleport : MonoBehaviour
+public enum GateTeleportType
+{
+    TwoWay,
+    EndGame
+}
+public class GateTeleport : GateBase
 {
     private Teleport teleport;
     public GateTeleport NextTeleportGate;
-
+    public GateTeleportType GateTeleportType = GateTeleportType.TwoWay;
     private void Awake()
     {
         teleport = GetComponentInParent<Teleport>();
     }
+
+    protected override void TriggerEnterCustom()
+    {
+        teleport.SetCurrentGate(this);
+    }
+
+    protected override void TriggerExitCustom()
+    {
+        teleport.SetCurrentGate(null);
+    }
+}
+public abstract class GateBase : MonoBehaviour
+{
+    protected abstract void TriggerEnterCustom();
+    protected abstract void TriggerExitCustom();
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("TeleportTrigger"))
         {
             Debug.Log("Set gate is current", gameObject);
-            teleport.SetCurrentGate(this);
+            TriggerEnterCustom();
         }
 
     }
@@ -26,7 +46,7 @@ public class GateTeleport : MonoBehaviour
         if (collision.CompareTag("TeleportTrigger"))
         {
             Debug.Log("Set gate null", gameObject);
-            teleport.SetCurrentGate(null);
+            TriggerExitCustom();
         }
 
     }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Teleport : MonoBehaviour
@@ -35,21 +36,35 @@ public class Teleport : MonoBehaviour
     }
     private void ActiveTeleport()
     {
+        if (currentGateActive == null) return;
         if (allowTeleport)
         {
-            Debug.Log("get input", gameObject);
-            if (currentGateActive != null)
+            allowTeleport = false;
+            var gateType = currentGateActive.GateTeleportType;
+            if (gateType == GateTeleportType.TwoWay)
             {
-                StartTeleport(Player, currentGateActive.NextTeleportGate);
+                var nextgate = currentGateActive.NextTeleportGate;
+                StartTeleport(Player, nextgate);
+            }
+            else if (gateType == GateTeleportType.EndGame)
+            {
+                StartCoroutine(TeleportEndGame());
             }
         }
     }
-    public void StartTeleport(Transform player, GateTeleport nextGate)
+    private IEnumerator TeleportEndGame()
+    {
+        yield return FadeScreen(true);
+        SceneManager.LoadScene("StartMenu");
+
+    }
+    private void StartTeleport(Transform player, GateTeleport nextGate)
     {
 
         if (nextGate == null)
         {
             Debug.LogError("This gate is null");
+            allowTeleport = true;
             return;
         }
         StartCoroutine(StartTele(player, nextGate));
@@ -60,7 +75,6 @@ public class Teleport : MonoBehaviour
         screenPanel.gameObject.SetActive(true);
         yield return FadeScreen(true);
 
-        allowTeleport = false;
         Debug.Log("get input", gameObject);
 
         //yield return new WaitForSeconds(waitForTrastion);
