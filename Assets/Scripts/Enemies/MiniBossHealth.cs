@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace MiniBossScripts
 {
@@ -13,7 +14,7 @@ namespace MiniBossScripts
         private int currentHealth;
         private Knockback knockback;
         private Flash flash;
-
+        public UnityEvent UnityEvent;
         private void Awake()
         {
             flash = GetComponent<Flash>();
@@ -51,6 +52,7 @@ namespace MiniBossScripts
         {
             if (currentHealth <= 0)
             {
+                UnityEvent?.Invoke();
                 Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
